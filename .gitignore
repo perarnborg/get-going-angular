@@ -1,0 +1,10 @@
+// APP
+node_modules
+bower_components
+npm-debug.log
+
+// STYLES
+assets/css/*.css
+
+// SCRIPTS
+assets/js/*.js
