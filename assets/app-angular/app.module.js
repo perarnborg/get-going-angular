@@ -2,7 +2,7 @@ angular
   .module("getgoing", [
     "ngRoute",
     "restangular",
-    "findTwins"
+    "example"
   ])
   .run(function () {
   });
