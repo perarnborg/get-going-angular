@@ -1,6 +1,6 @@
-function CareertwinConfig(RestangularProvider) {
+function GetgoingConfig(RestangularProvider) {
   RestangularProvider.setBaseUrl('/data');
 }
 
 angular.module("getgoing")
-  .config(CareertwinConfig);
+  .config(GetgoingConfig);
