@@ -4,14 +4,14 @@
 function ExampleService(Restangular) {
   var service = {};
 
-  service.listItmes = null;
+  service.listItems = null;
   service.getListItems = function() {
     return Restangular.all('list-items').getList().then(function(data) {
-      service.listItmes = data;
-      return service.listItmes
+      service.listItems = data;
+      return service.listItems
     }, function(){
-      service.listItmes = []
-      return service.listItmes
+      service.listItems = []
+      return service.listItems
     });
   };
 
